@@ -13,7 +13,7 @@ public class FirefighterImpl implements Firefighter {
 		this.distanceTraveled = distanceTraveled;
 	}
 
-	@Override
+//	@Override
 	public void setLocation(CityNode cityNode) {
 		this.cityNode = cityNode;
 	}

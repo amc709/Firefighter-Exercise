@@ -98,10 +98,10 @@ public class FireDispatchImpl implements FireDispatch {
 						if (Math.abs(nodeY - ffY) > 0) {
 							tmp += Math.abs(nodeY - ffY);
 						}
-						ff.setDistanceTraveled(tmp);
+						((FirefighterImpl)ff).setDistanceTraveled(tmp);
 	
 						// Update location
-						ff.setLocation(node);
+						((FirefighterImpl)ff).setLocation(node);
 						
 						System.out.println("Total distance so far: " + ff.distanceTraveled());
 						

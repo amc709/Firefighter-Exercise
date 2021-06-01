@@ -17,6 +17,6 @@ public interface Firefighter {
    */
   int distanceTraveled();
   
-  void setDistanceTraveled(int distance);
-  void setLocation(CityNode cityNode);
+//  void setDistanceTraveled(int distance);
+//  void setLocation(CityNode cityNode);
 }
